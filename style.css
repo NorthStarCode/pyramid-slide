@@ -1,0 +1,40 @@
+header  {
+    text-align: center;
+    background-color: magenta;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 0;
+}
+
+.slide_area {
+    margin: 45px;
+    border: 2px solid magenta;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+body    {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span  {
+    text-align: center;
+    background-color: darkgray;
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+    padding: 20px 0;
+}
+
+#pyramid    {
+    text-align: right;
+    font-weight: normal;
+    font-size: 20px;
+    display: block;
+    padding-right: 50%;
+    background-color: lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

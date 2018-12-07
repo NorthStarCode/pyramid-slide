@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Pyramid Slider</Title> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css"/>   
+    </head>
+<body>
+    <header>
+        <h1>Pyramid Slide</h1>
+    </header>
+    <div class="slide_area">
+    <span>
+    <label for="symbol">Brick Symbol:&nbsp;</label>
+        <select id ="symbol" name="symbol" onChange="drawPyramid()">
+            <option value="@">@</option>
+            <option value="$">$</option>
+            <option value="X">X</option>
+            <option value="#">#</option>
+            <option value="*">*</option>
+        </select>
+        &nbsp;&nbsp;&nbsp;
+        <label for="height">How High?&nbsp;</label>
+        <input name="height" id="slider" default="8" type="range" min="1" max="20" step="1"  value="5" onInput="drawPyramid()">
+        <output id="output"></output>
+    </span>
+    <div id="pyramid"></div>
+    </div>
+</body>
+<script type="text/javascript" src="pyrmslider.js"></script>
+</html>
